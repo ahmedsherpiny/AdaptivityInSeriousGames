@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="525.9998779296875" xmlns:fx="http://javafx.com/fxml" fx:controller="adaptivity.server.AddSkillController">
+  <children>
+    <Button layoutX="144.0" layoutY="239.0" mnemonicParsing="false" text="Save" />
+    <Button layoutX="280.0" layoutY="239.0" mnemonicParsing="false" text="Cancel" />
+    <Label layoutX="24.0" layoutY="14.0" text="Skill" />
+    <TextField fx:id="skillName" layoutX="69.0" layoutY="8.0" prefWidth="200.0" />
+    <Label layoutX="25.0" layoutY="36.0" text="Skill requirements" />
+    <TextArea editable="false" layoutX="308.0" layoutY="9.0" prefHeight="219.0" prefWidth="200.0" text="Select a skill to see its details" wrapText="true" />
+    <CheckBox id="skill1" fx:id="skill1_chkbx" layoutX="30.0" layoutY="68.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 1" />
+    <Slider fx:id="skill1_slider" disable="true" layoutX="160.0" layoutY="69.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill1_lbl" layoutX="147.0" layoutY="68.0" text="0" />
+    <CheckBox id="skill1_chkbx" fx:id="skill2_chkbx" layoutX="30.0" layoutY="89.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 2" />
+    <Slider fx:id="skill2_slider" disable="true" layoutX="160.0" layoutY="90.0" onMouseDragged="#adjustSliderValue" visible="true" />
+    <Label id="skill1_lbl" fx:id="skill2_lbl" layoutX="147.0" layoutY="89.0" text="0" />
+    <CheckBox id="skill1_chkbx" fx:id="skill3_chkbx" layoutX="30.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 3" />
+    <Slider fx:id="skill3_slider" disable="true" layoutX="160.0" layoutY="111.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label id="skill1_lbl" fx:id="skill3_lbl" layoutX="147.0" layoutY="110.0" text="0" />
+    <CheckBox fx:id="skill4_chkbx" layoutX="30.0" layoutY="131.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 4" />
+    <Slider fx:id="skill4_slider" disable="true" layoutX="160.0" layoutY="132.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill4_lbl" layoutX="147.0" layoutY="131.0" text="0" />
+    <CheckBox fx:id="skill5_chkbx" layoutX="30.0" layoutY="152.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 5" />
+    <Slider fx:id="skill5_slider" disable="true" layoutX="160.0" layoutY="153.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill5_lbl" layoutX="147.0" layoutY="152.0" text="0" />
+    <CheckBox fx:id="skill6_chkbx" layoutX="30.0" layoutY="173.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 6" />
+    <Slider fx:id="skill6_slider" disable="true" layoutX="160.0" layoutY="174.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill6_lbl" layoutX="147.0" layoutY="173.0" text="0" />
+    <CheckBox fx:id="skill7_chkbx" layoutX="30.0" layoutY="194.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 7" />
+    <Slider fx:id="skill7_slider" disable="true" layoutX="160.0" layoutY="195.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill7_lbl" layoutX="147.0" layoutY="194.0" text="0" />
+    <CheckBox fx:id="skill8_chkbx" layoutX="30.0" layoutY="215.0" mnemonicParsing="false" onAction="#selectSkillRequirement" text="Skill 8" />
+    <Slider fx:id="skill8_slider" disable="true" layoutX="160.0" layoutY="216.0" onMouseDragged="#adjustSliderValue" value="0.0" visible="true" />
+    <Label fx:id="skill8_lbl" layoutX="147.0" layoutY="215.0" text="0" />
+  </children>
+</AnchorPane>
